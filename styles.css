@@ -1,6 +1,65 @@
-/* This is where styles are defined for your page. */
-/* One style is provided as example. */
+h1, h2, h3 {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
-h1 {
-    color: green;
+header {
+    margin: 3rem 1rem;
+}
+header p {
+    margin-top: 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 0;
+    text-align: center;
+}
+
+aside img {
+    height: auto;
+    width: 250px;
+    margin: 12px;
+}
+
+aside {
+    width: 50%;
+    padding: 1rem;
+    border: 5px solid black;
+}
+
+section {
+    clear: both; 
+    font-size: 20px;
+}
+
+ul.poem {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.8;
+    font-size: 1.4rem;
+}
+
+.page-footer {
+    background: lightgray;
+    font-family: fantasy, arial, sans-serif;
+    font-size: 18px;
+}
+
+.citation {
+    line-height: 1.5rem;
+    padding: 10px;
+}
+
+html {
+    background-image: url(images/sand.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body {
+    margin: 0 auto;
+    width: 75%;
+    padding: 1rem;
+    padding-left: 4rem;
 }
